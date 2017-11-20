@@ -21,7 +21,7 @@ func main() {
 	}
 	// Print the full configuration
 	fmt.Println(config)
-	//Encode nd Decode
+	//Encode and Decode
 	a := "73616d706c65"
 	bs, err := hex.DecodeString(a)
 	if err != nil {
